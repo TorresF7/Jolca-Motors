@@ -1,0 +1,112 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(SourceSansPro-Regular.ttf);
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555555;
+}
+
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+
+.company {
+    float: right;
+    text-align: right;
+}
+
+.NombreEmpresa {
+    font-family: SourceSansPro;
+    font-size: 18px;
+}
+
+.Direccion,
+.Telefono {
+    font-family: SourceSansPro;
+    font-size: 10px;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.contenedorPrincipal {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.submenuUno {
+    float: left;
+    padding: 0px 10px;
+    border-left: 5px solid #0087C3;
+}
+
+.submenuUno .cliente {
+    font-size: 18px;
+    color: #545955;
+    font-family: Arial black;
+}
+
+.submenuUno .dtCliente {
+    font-size: 12px;
+}
+
+.submenuDos {
+    float: right;
+    text-align: right;
+    font-size: 13px;
+}
+
+.submenuDos .correlativo {
+    font-size: 18px;
+    color: #0087C3;
+    font-family: Arial black;
+}
+
+.submenuDos .fecha {
+    font-size: 12px;
+    color: black;
+    font-family: Arial black!important;
+}
+
+table .columnaUno {
+    font-size: 15px;
+    font-family: Arial black;
+    color: #545955;
+}
+
+.table-rwd {
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+}
+
+.table-rwd td:nth-child(2) {
+    padding: 10px 10px;
+}
+
+.table-rwd td {
+    font-family: Arial, sans-serif;
+    color: #858282;
+    padding: 10px 10px;
+}
+
+table td.columna {
+    border-top: 1px solid #CCE5FF;
+    border-bottom: 1px solid #CCE5FF;
+}
+
+
+/* table tr:nth-child(2n+0) {
+    background-color: #E2E3E5;
+} */
